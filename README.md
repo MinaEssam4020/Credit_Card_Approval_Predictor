@@ -1,10 +1,10 @@
 # Credit_Card_Approval_Predictor
 Automated machine learning pipeline to predict credit card application approvals. Using a dataset with a mix of numerical and categorical features
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on building an automated machine learning pipeline to predict credit card application approvals. Using a dataset with a mix of numerical and categorical features, I implemented a full end-to-end workflow—from cleaning "dirty" data to optimizing a Logistic Regression model for high-stakes decision-making.
 
-## 🛠️ Key Technical Steps
+##  Key Technical Steps
 ### 1. Data Preprocessing & Cleaning
 * **Handling Missing Values**: Identified hidden missing values represented as '?' characters and converted them to np.nan.
 * **Intelligent Imputation**: Built a custom loop to handle different data types:
@@ -23,10 +23,10 @@ This project focuses on building an automated machine learning pipeline to predi
     * **Best Regularization (C)**: 0.1
     * **Best Tolerance (tol)**: 0.01
 
-## 📊 Results
+## Results
 * **Final Model Accuracy**: 83.33% on the test set.
 * **Best Cross-Validation Score**: 86.15% during the grid search.
 
-## 💻 Technologies Used
+## Technologies Used
 * **Language**: Python
 * **Libraries**: Pandas, NumPy, Scikit-Learn
